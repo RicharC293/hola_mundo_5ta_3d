@@ -5,6 +5,40 @@ class Listas extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      /// 1. SingleChildScrollView -> Scrolleable la columna
+      /// 2. ListView -> Scrolleable -> children
+      body: SingleChildScrollView(
+        child: Column(
+          spacing: 300,
+          children: [
+            Container(
+              width: double.infinity,
+              height: 100,
+              color: Colors.red,
+            ),
+            Container(
+              width: double.infinity,
+              height: 100,
+              color: Colors.red,
+            ),Container(
+              width: double.infinity,
+              height: 100,
+              color: Colors.red,
+            ),
+            Container(
+              width: double.infinity,
+              height: 100,
+              color: Colors.red,
+            ),
+            Container(
+              width: double.infinity,
+              height: 100,
+              color: Colors.red,
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }
