@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 class Listas extends StatelessWidget {
   const Listas({super.key});
 
+  static const String routeName = "/listas";
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

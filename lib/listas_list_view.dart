@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 
 class ListasListView extends StatelessWidget {
   const ListasListView({super.key});
+
+  static const String routeName = "/listas_list_view";
+
   // Variable List<String> _informacion;
   @override
   Widget build(BuildContext context) {
